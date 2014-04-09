@@ -1,0 +1,20 @@
+<html>
+<head>
+  <title>Myapp</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+  <div class="container">
+      <ul class="nav nav-tabs">
+        <li><%= link_to "erez", leads_path %> </li>
+        <li><%= link_to "erez2", leads_path %> </li>
+        <li><%= link_to "erez3", leads_path %> </li>
+        <li><%= link_to "erez4", leads_path %> </li>
+        <li><%= link_to "erez5", leads_path %> </li>
+
+        
+      </ul>
+    </div>
